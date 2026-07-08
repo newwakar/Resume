@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potnuru Divakar Rao - Graphic Designer Resume</title>
     <style>
-        /* Compressed styling to force a single page viewport overview without clipping */
+        /* Ultra-compressed styles to guarantee zero vertical scrolling on standard screens */
         :root {
             --bg-color: #f2ebf0;
             --window-border: #805466;
@@ -14,7 +14,7 @@
             --text-dark: #2b2025;
             --text-muted: #5e4c54;
             --sidebar-bg: #fdf6f9;
-            --shadow: 3px 3px 0px #805466;
+            --shadow: 2px 2px 0px #805466;
         }
 
         * {
@@ -26,9 +26,9 @@
         body {
             background-color: var(--bg-color);
             background-image: radial-gradient(var(--accent-pink) 1px, transparent 0);
-            background-size: 12px 12px;
+            background-size: 10px 10px;
             color: var(--text-dark);
-            padding: 10px;
+            padding: 5px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -36,10 +36,10 @@
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
         }
 
-        /* Scaled container optimized to view completely in a small window */
+        /* Scaled down width and extreme padding reductions to fit everything comfortably */
         .resume-container {
             width: 100%;
-            max-width: 740px;
+            max-width: 680px;
             background: #ffffff;
             border: 2px solid var(--window-border);
             box-shadow: var(--shadow);
@@ -47,17 +47,17 @@
             overflow: hidden;
         }
 
-        /* Micro top banner */
+        /* Micro top title bar */
         .window-header {
             background-color: var(--window-header);
-            padding: 4px 10px;
+            padding: 2px 8px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             border-bottom: 2px solid var(--window-border);
             font-family: 'Courier New', Courier, monospace;
             font-weight: bold;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
         }
 
         .window-controls {
@@ -66,42 +66,37 @@
         }
 
         .control-btn {
-            width: 11px;
-            height: 11px;
-            border: 1.5px solid var(--window-border);
+            width: 9px;
+            height: 9px;
+            border: 1px solid var(--window-border);
             background-color: #ffffff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 6px;
-            font-weight: bold;
         }
 
-        /* Dynamic tight side-by-side split layout */
+        /* Two-column structural grid fixed */
         .resume-content {
             display: grid;
-            grid-template-columns: 200px 1fr;
+            grid-template-columns: 175px 1fr;
         }
 
-        /* Compact Left Panel */
+        /* Tiny Sidebar Column */
         .sidebar {
             background-color: var(--sidebar-bg);
             border-right: 2px solid var(--window-border);
-            padding: 10px 8px;
+            padding: 6px;
         }
 
-        /* Micro size photo player frame */
+        /* Tiny profile photo player combo box */
         .profile-box {
             border: 2px solid var(--window-border);
             border-radius: 2px;
             background: #ffffff;
-            margin-bottom: 10px;
+            margin-bottom: 6px;
             overflow: hidden;
         }
 
         .profile-img-frame {
             width: 100%;
-            height: 110px;
+            height: 90px;
             background-color: var(--accent-pink);
             overflow: hidden;
             display: flex;
@@ -117,26 +112,26 @@
 
         .media-bar {
             background-color: var(--window-header);
-            border-top: 2px solid var(--window-border);
-            padding: 2px;
+            border-top: 1px solid var(--window-border);
+            padding: 1px;
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 8px;
-            font-size: 0.65rem;
+            gap: 6px;
+            font-size: 0.55rem;
         }
 
-        /* Space efficient title badges */
+        /* Compact Title Badges */
         .section-label {
             background-color: var(--window-border);
             color: #ffffff;
             font-family: 'Courier New', Courier, monospace;
             font-weight: bold;
-            font-size: 0.65rem;
-            letter-spacing: 0.5px;
+            font-size: 0.6rem;
+            letter-spacing: 0.3px;
             text-transform: uppercase;
-            padding: 2px 6px;
-            margin: 10px 0 4px 0;
+            padding: 1px 4px;
+            margin: 6px 0 3px 0;
             display: inline-block;
         }
 
@@ -144,16 +139,16 @@
             margin-top: 0;
         }
 
-        /* Mini typography lists */
+        /* Compact sidebar text entries */
         .contact-group {
-            margin-bottom: 4px;
-            font-size: 0.72rem;
+            margin-bottom: 2px;
+            font-size: 0.68rem;
             line-height: 1.1;
         }
 
         .contact-group span {
             display: block;
-            font-size: 0.58rem;
+            font-size: 0.52rem;
             text-transform: uppercase;
             color: var(--text-muted);
             font-weight: bold;
@@ -165,10 +160,11 @@
 
         .custom-list li {
             position: relative;
-            padding-left: 10px;
-            margin-bottom: 2px;
-            font-size: 0.72rem;
+            padding-left: 8px;
+            margin-bottom: 1px;
+            font-size: 0.68rem;
             font-weight: 500;
+            line-height: 1.1;
         }
 
         .custom-list li::before {
@@ -178,9 +174,9 @@
             color: var(--window-border);
         }
 
-        /* Compact Right Panel Main Workspace */
+        /* Compact Main Content Body Canvas */
         .main-section {
-            padding: 12px 18px;
+            padding: 8px 12px;
             background-color: #ffffff;
             display: flex;
             flex-direction: column;
@@ -188,14 +184,14 @@
         }
 
         .header-title {
-            margin-bottom: 10px;
-            padding-bottom: 4px;
-            border-bottom: 1.5px dashed var(--accent-pink);
+            margin-bottom: 6px;
+            padding-bottom: 2px;
+            border-bottom: 1px dashed var(--accent-pink);
         }
 
         .header-title h1 {
             font-family: 'Courier New', Courier, monospace;
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             font-weight: bold;
             text-transform: uppercase;
             color: var(--text-dark);
@@ -203,28 +199,28 @@
         }
 
         .header-title h2 {
-            font-size: 0.8rem;
+            font-size: 0.72rem;
             font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             color: var(--window-border);
             margin-top: 1px;
         }
 
-        /* Tight baseline structures for timeline items */
+        /* Compact Timeline Components */
         .timeline-item {
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         .timeline-header {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin-bottom: 2px;
+            margin-bottom: 1px;
         }
 
         .timeline-role {
-            font-size: 0.82rem;
+            font-size: 0.75rem;
             font-weight: bold;
             color: var(--text-dark);
             text-transform: uppercase;
@@ -232,11 +228,11 @@
 
         .timeline-meta {
             font-family: 'Courier New', Courier, monospace;
-            font-size: 0.68rem;
+            font-size: 0.62rem;
             font-weight: bold;
             color: var(--window-border);
             text-align: right;
-            line-height: 1.1;
+            line-height: 1;
         }
 
         .timeline-desc {
@@ -246,10 +242,10 @@
 
         .timeline-desc li {
             position: relative;
-            padding-left: 10px;
-            margin-bottom: 2px;
-            font-size: 0.75rem;
-            line-height: 1.25;
+            padding-left: 8px;
+            margin-bottom: 1px;
+            font-size: 0.7rem;
+            line-height: 1.2;
             color: var(--text-dark);
         }
 
@@ -258,13 +254,13 @@
             position: absolute;
             left: 0;
             color: var(--window-header);
-            font-size: 0.7rem;
+            font-size: 0.6rem;
             top: -1px;
         }
 
-        /* Mini Education Layout Block */
+        /* Micro size Education components */
         .edu-item h4 {
-            font-size: 0.82rem;
+            font-size: 0.75rem;
             font-weight: bold;
             text-transform: uppercase;
             color: var(--text-dark);
@@ -272,9 +268,9 @@
         }
 
         .edu-item p {
-            font-size: 0.75rem;
+            font-size: 0.68rem;
             color: var(--text-muted);
-            line-height: 1.2;
+            line-height: 1.1;
         }
     </style>
 </head>
@@ -285,8 +281,8 @@
         <div class="window-header">
             <span>DIVAKAR_RESUME.SYS</span>
             <div class="window-controls">
-                <div class="control-btn">-</div>
-                <div class="control-btn">X</div>
+                <div class="control-btn"></div>
+                <div class="control-btn"></div>
             </div>
         </div>
 
@@ -295,7 +291,7 @@
             <aside class="sidebar">
                 <div class="profile-box">
                     <div class="profile-img-frame">
-                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" alt="Potnuru Divakar Rao Profile Graphic">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" alt="Potnuru Divakar Rao Portrait Image">
                     </div>
                     <div class="media-bar">
                         <span>⏮</span>
@@ -347,7 +343,7 @@
                         <h2>Graphic Designer</h2>[span_11](start_span)[span_11](end_span)
                     </div>
 
-                    <div class="section-label" style="margin-top: 0; margin-bottom: 8px;">Experience</div>
+                    <div class="section-label" style="margin-top: 0; margin-bottom: 4px;">Experience</div>
 
                     <div class="timeline-item">
                         <div class="timeline-header">
@@ -375,7 +371,7 @@
                 </div>
 
                 <div>
-                    <div class="section-label" style="margin-top: 2px; margin-bottom: 6px;">Education</div>
+                    <div class="section-label" style="margin-top: 2px; margin-bottom: 3px;">Education</div>
                     <div class="edu-item">
                         <h4>Bachelor of Science in Computers</h4>[span_15](start_span)[span_15](end_span)
                         <p>A. V. N College — Andhra University (2005 - 2008)[span_16](start_span)[span_16](end_span)</p>
